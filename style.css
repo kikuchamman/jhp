@@ -11,6 +11,11 @@ html, body   {
   font-weight: bolder;
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.hover {
+  color: #1ebba3;
+}
+
 .topsection {
  background-image: url(img/1895690_m.jpg);
  background-size: cover;
@@ -20,9 +25,11 @@ html, body   {
 }
 
 h1 {
- padding-top: 300px;
+ padding-top: 350px;
  font-weight: bold;
  color: white;
+ font-size: 3.5rem;
+
 }
 
 h2 {
@@ -33,10 +40,23 @@ h4 {
   padding-top: 3rem;
 }
 
-.icon {
-  max-width: 25%;
+.index{
+  font-size: 25px;
+  font-weight: 300;
+  color:black;
+  padding-bottom: 15px;
+  width: ;
 }
 
+
+.icon {
+  max-width: 125px;
+}
+
+.icon:hover{
+  transform:scale(1.2,1.2);
+  transition:0.3s all;
+}
 
 
 .outline {
@@ -53,17 +73,31 @@ h4 {
   background-color: #dedede;
 }
 
+.office img{
+  max-width: 80%;
+}
+
 @media screen and (max-width: 767px) {
-  .outline,
+  /* .outline,
   .outline tr,
   .outline td,
-  .outline th {display:block;}
+  .outline th {display:block;} */
   .outline th {width:auto;}
+ 
+  }
+
+  @media screen and (max-width:1024px) {
+    h1 {
+      padding-top: 250px;
+      font-size: 2.5rem;
+    }
   }
   
-.contact {
-  max-width: ;
+
+.form {
+  max-width: 70%;
 }
+
 
 footer {
   background-color: whitesmoke;
