@@ -25,11 +25,12 @@ html, body   {
 }
 
 h1 {
- padding-top: 350px;
+ padding-top: 310px;
  font-weight: bold;
  color: white;
  font-size: 3.5rem;
-
+ padding-bottom: 200px;
+ vertical-align: middle;
 }
 
 h2 {
@@ -45,8 +46,14 @@ h4 {
   font-weight: 300;
   color:black;
   padding-bottom: 15px;
-  width: ;
 }
+
+.info{
+  margin: auto;
+  max-width: 950px;
+  
+}
+
 
 
 .icon {
@@ -71,27 +78,53 @@ h4 {
 .outline th {
   font-weight: bold;
   background-color: #dedede;
+  width: 20%;
+}
+
+.outline td{
+  /* padding-right: 100px; */
+
 }
 
 .office img{
   max-width: 80%;
 }
 
-@media screen and (max-width: 767px) {
-  /* .outline,
-  .outline tr,
-  .outline td,
-  .outline th {display:block;} */
-  .outline th {width:auto;}
- 
-  }
+
+
+
 
   @media screen and (max-width:1024px) {
-    h1 {
-      padding-top: 250px;
-      font-size: 2.5rem;
+    .topsection {
+      max-height: 700px;
     }
   }
+
+  @media screen and (max-width: 767px) {
+    /* .outline,
+    .outline tr,
+    .outline td,
+    .outline th {display:block;} */
+    .outline th {width:auto;}
+    .service {
+      padding-bottom: 3rem;
+    }
+    h1 {
+      padding-top: 250px;
+      font-size: 3.0rem;
+    }
+    .topsection {
+      max-height: 500px;
+    }
+    }
+
+  @media screen and (max-width: 400px) {
+  
+    h1 {
+      padding-top: 150px;
+      
+    }
+    }
   
 
 .form {
